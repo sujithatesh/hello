@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel --plugins @babel/plugin-transform-react-jsx hello.jsx > hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/plugin-transform-react-jsx": "^7.22.15",
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+  }
+}
